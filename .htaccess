@@ -1,0 +1,11 @@
+# MarketHub — konfigurasi Apache (XAMPP)
+DirectoryIndex index.php
+Options -Indexes
+ErrorDocument 404 /markethub/404.php
+ErrorDocument 403 /markethub/404.php
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>

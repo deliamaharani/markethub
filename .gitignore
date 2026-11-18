@@ -1,0 +1,17 @@
+
+# Konfigurasi database hosting
+/config/database.production.php
+
+# File sistem dan editor
+.DS_Store
+.vscode/
+
+# File log
+*.log
+
+# File sementara
+*.tmp
+
+# File backup
+*.bak
+*.old
